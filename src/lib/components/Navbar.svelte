@@ -5,41 +5,25 @@
 <nav class="flex items-center justify-between px-4 py-3 bg-white sticky top-0 z-50 border-b border-transparent transition-all duration-200">
 	<div class="flex items-center gap-6">
 		<a href="/" class="flex items-center gap-2 text-notion-black hover:opacity-80 transition-opacity">
-			<svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-notion-black">
-				<path d="M4 4H20V20H4V4Z" fill="currentColor" stroke="currentColor" stroke-width="2"/>
-				<path d="M9 8L15 16V8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-				<path d="M15 8V16" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M9 16V8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+			<svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-primary-600">
+				<path
+					fill-rule="evenodd"
+					clip-rule="evenodd"
+					d="M11.6277 5.74767C10.7109 6.38712 9.22456 6.38712 8.3078 5.74767C7.39104 5.10821 7.39104 4.07144 8.3078 3.43199C9.22456 2.79253 10.7109 2.79253 11.6277 3.43199C12.5445 4.07144 12.5445 5.10821 11.6277 5.74767ZM12.3486 9.68436C13.4488 10.4517 15.2324 10.4517 16.3325 9.68436C17.4326 8.91698 17.4326 7.67288 16.3325 6.90553C15.2324 6.13818 13.4488 6.13818 12.3486 6.90553C11.2485 7.67288 11.2485 8.91698 12.3486 9.68436ZM4.73651 16.6314C5.46993 17.143 6.65903 17.143 7.39246 16.6314C8.12584 16.1198 8.12584 15.2904 7.39246 14.7788C6.65903 14.2672 5.46993 14.2672 4.73651 14.7788C4.0031 15.2904 4.0031 16.1198 4.73651 16.6314ZM11.6277 13.1579C10.7109 13.7973 9.22456 13.7973 8.3078 13.1579C7.39104 12.5184 7.39104 11.4816 8.3078 10.8421C9.22456 10.2027 10.7109 10.2027 11.6277 10.8421C12.5445 11.4816 12.5445 12.5184 11.6277 13.1579ZM2.41254 12.6947C2.9626 13.0784 3.85443 13.0784 4.40449 12.6947C4.95455 12.311 4.95455 11.689 4.40449 11.3053C3.85443 10.9216 2.9626 10.9216 2.41254 11.3053C1.86248 11.689 1.86249 12.311 2.41254 12.6947ZM4.73651 9.22117C5.46992 9.73275 6.65902 9.73275 7.39246 9.22117C8.12584 8.7096 8.12584 7.88018 7.39246 7.36863C6.65902 6.85706 5.46992 6.85706 4.73651 7.36863C4.0031 7.88018 4.0031 8.7096 4.73651 9.22117ZM11.6277 20.568C10.7109 21.2075 9.22456 21.2075 8.3078 20.568C7.39104 19.9286 7.39104 18.8918 8.3078 18.2523C9.22456 17.6129 10.7109 17.6129 11.6277 18.2523C12.5445 18.8918 12.5445 19.9286 11.6277 20.568ZM17.191 13.3894C18.2911 14.1568 20.0748 14.1568 21.1749 13.3894C22.275 12.6221 22.275 11.3779 21.1749 10.6106C20.0748 9.84324 18.2911 9.84324 17.191 10.6106C16.0909 11.3779 16.0909 12.6221 17.191 13.3894ZM16.3325 17.0945C15.2324 17.8618 13.4488 17.8618 12.3486 17.0945C11.2485 16.3271 11.2485 15.083 12.3486 14.3156C13.4488 13.5483 15.2324 13.5483 16.3325 14.3156C17.4326 15.083 17.4326 16.3271 16.3325 17.0945Z"
+					fill="currentColor"
+				/>
 			</svg>
-            <!-- The logo above is a placeholder, I should make a better one or just text if SVG is hard -->
-            <!-- Actually, let's try to make the N logo more accurate: Box with N inside -->
+			<span class="font-semibold text-xl tracking-tight text-notion-black">bogi</span>
 		</a>
-        
-        <div class="flex items-center gap-1">
-             <a href="/" class="flex items-center gap-2">
-                <svg viewBox="0 0 24 24" width="24" height="24" class="block" fill="currentColor"><path d="M4.396 3h15.21c.772 0 1.396.623 1.396 1.395v15.21c0 .77-.624 1.395-1.396 1.395H4.396A1.397 1.397 0 0 1 3 19.605V4.395C3 3.623 3.624 3 4.396 3zm4.562 4.416c-.4 0-.725.324-.725.723v7.722c0 .4.325.724.725.724h.548c.313 0 .587-.197.684-.49l3.52-6.57v6.336c0 .4.325.724.725.724h.548c.4 0 .725-.324.725-.724V7.416c0-.4-.325-.723-.725-.723h-.62c-.313 0-.586.197-.684.49L9.635 13.63V7.416c0-.4-.325-.723-.725-.723h-.548z"></path></svg>
-                <span class="font-medium text-lg tracking-tight text-notion-black">Notion</span>
-            </a>
-        </div>
 
 		<div class="hidden lg:flex items-center gap-5 text-[14px] font-normal text-notion-gray">
-			<a href="#" class="hover:text-notion-black transition-colors">Mail</a>
-			<a href="#" class="hover:text-notion-black transition-colors">Calendar</a>
-			<a href="#" class="hover:text-notion-black transition-colors">AI</a>
-			<a href="#" class="hover:text-notion-black transition-colors">Enterprise</a>
-			<a href="#" class="hover:text-notion-black transition-colors">Pricing</a>
-			<div class="group relative flex items-center gap-1 cursor-pointer hover:text-notion-black transition-colors">
-				Explore
-				<svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-					<path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-				</svg>
-			</div>
-			<a href="#" class="hover:text-notion-black transition-colors">Request a demo</a>
+			<a href="#features" class="hover:text-notion-black transition-colors">Features</a>
+			<a href="#how-it-works" class="hover:text-notion-black transition-colors">How it works</a>
+			<a href="#faq" class="hover:text-notion-black transition-colors">FAQ</a>
 		</div>
 	</div>
 
 	<div class="flex items-center gap-4">
-		<a href="#" class="text-[14px] font-normal text-notion-gray hover:text-notion-black transition-colors hidden sm:block">Log in</a>
-		<a href="#" class="bg-notion-black text-white text-[14px] font-medium px-3 py-1.5 rounded-[4px] hover:bg-notion-gray transition-colors">Get Notion Mail free</a>
+		<a href="#" class="bg-notion-black text-white text-[14px] font-medium px-4 py-2 rounded-[6px] hover:bg-gray-800 transition-colors">Join Early Access</a>
 	</div>
 </nav>

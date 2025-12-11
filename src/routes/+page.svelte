@@ -12,7 +12,7 @@
 </script>
 
 <svelte:head>
-	<title>Notion Mail</title>
+	<title>Bogi - Transform Mental Clutter into Completed Tasks</title>
 </svelte:head>
 
 <Hero />

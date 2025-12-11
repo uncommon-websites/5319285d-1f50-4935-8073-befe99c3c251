@@ -1,99 +1,35 @@
 <section class="max-w-[1200px] mx-auto px-4 py-20">
-    <h2 class="text-4xl md:text-5xl font-bold tracking-tight text-notion-black mb-16 text-center">
-        Available anywhere, even offline.
+    <h2 class="text-4xl md:text-5xl font-bold tracking-tight text-notion-black mb-8 text-center">
+        Join the early access program.
     </h2>
+    
+    <p class="text-xl text-notion-gray text-center max-w-2xl mx-auto mb-16">
+        Be among the first to experience Bogi. Help shape the future of AI-powered task management.
+    </p>
 
-    <div class="grid md:grid-cols-2 gap-8">
-        <!-- iOS -->
-        <div class="flex flex-col gap-6">
-            <div class="bg-[#F7F7F5] rounded-xl p-8 h-[400px] flex items-end justify-center overflow-hidden relative">
-                <!-- Phone Mockup -->
-                <div class="w-[280px] bg-black rounded-[40px] p-3 shadow-2xl relative -bottom-12 border-[6px] border-gray-800">
-                    <div class="bg-white rounded-[32px] overflow-hidden h-full min-h-[400px] relative">
-                        <!-- Notch -->
-                        <div class="absolute top-0 left-1/2 transform -translate-x-1/2 w-32 h-6 bg-black rounded-b-2xl z-20"></div>
-                        
-                        <!-- App UI -->
-                        <div class="pt-10 px-4 pb-4 bg-white h-full flex flex-col">
-                            <div class="flex justify-between items-center mb-4">
-                                <div class="font-bold text-lg">Inbox</div>
-                                <div class="text-gray-400 text-xs">9:12</div>
-                            </div>
-                            <div class="space-y-4">
-                                <div class="border-b border-gray-100 pb-3">
-                                    <div class="flex justify-between text-xs mb-1">
-                                        <span class="font-bold">Jordan</span>
-                                        <span class="text-gray-400">Now</span>
-                                    </div>
-                                    <div class="font-medium text-sm truncate">Finalizing Terms for your Funding Round</div>
-                                    <div class="text-xs text-gray-500 mt-1 truncate">We've outlined the final terms for your fund...</div>
-                                    <div class="mt-2 inline-block bg-blue-100 text-blue-700 text-[10px] px-1.5 py-0.5 rounded">Funding</div>
-                                </div>
-                                <div class="border-b border-gray-100 pb-3">
-                                    <div class="flex justify-between text-xs mb-1">
-                                        <span class="font-bold">Ricky, Jennie</span>
-                                        <span class="text-gray-400">15m</span>
-                                    </div>
-                                    <div class="font-medium text-sm truncate">Urgent: Hiring Decision Needed for Backend...</div>
-                                    <div class="text-xs text-gray-500 mt-1 truncate">We need to make a final call on the backend...</div>
-                                    <div class="mt-2 inline-block bg-purple-100 text-purple-700 text-[10px] px-1.5 py-0.5 rounded">Hiring</div>
-                                </div>
-                                 <div class="border-b border-gray-100 pb-3">
-                                    <div class="flex justify-between text-xs mb-1">
-                                        <span class="font-bold">Andrew, Jason</span>
-                                        <span class="text-gray-400">1h</span>
-                                    </div>
-                                    <div class="font-medium text-sm truncate">Excited to Apply for the Product Design...</div>
-                                    <div class="text-xs text-gray-500 mt-1 truncate">Hi team, just wanted to submit my applicati...</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white border border-gray-200 rounded-xl p-8 text-center">
+            <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg class="w-8 h-8 text-primary-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
             </div>
-            <div>
-                <h3 class="text-xl font-semibold text-notion-black mb-2">Email on the go with the iOS app.</h3>
-                <button class="bg-notion-black text-white text-sm font-medium px-4 py-2 rounded-[4px] hover:bg-notion-gray transition-colors flex items-center gap-2">
-                    Download for iOS
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-                </button>
-            </div>
+            <h3 class="text-xl font-semibold text-notion-black mb-2">Early Access</h3>
+            <p class="text-notion-gray">Get exclusive access to Bogi before the public launch.</p>
         </div>
 
-        <!-- Mac -->
-        <div class="flex flex-col gap-6">
-            <div class="bg-[#F7F7F5] rounded-xl p-8 h-[400px] flex items-end justify-center overflow-hidden relative">
-                 <!-- Desktop Mockup -->
-                 <div class="w-[400px] bg-white rounded-t-lg shadow-2xl relative -bottom-8 border border-gray-200">
-                    <div class="h-6 bg-gray-100 border-b border-gray-200 flex items-center px-2 gap-1.5">
-                        <div class="w-2.5 h-2.5 rounded-full bg-red-400"></div>
-                        <div class="w-2.5 h-2.5 rounded-full bg-yellow-400"></div>
-                        <div class="w-2.5 h-2.5 rounded-full bg-green-400"></div>
-                    </div>
-                    <div class="flex h-[300px]">
-                        <div class="w-32 border-r border-gray-200 bg-gray-50 p-2 space-y-2">
-                             <div class="h-2 w-16 bg-gray-200 rounded"></div>
-                             <div class="h-2 w-20 bg-gray-200 rounded"></div>
-                             <div class="h-2 w-12 bg-gray-200 rounded"></div>
-                        </div>
-                        <div class="flex-1 p-4">
-                             <div class="h-4 w-32 bg-gray-200 rounded mb-4"></div>
-                             <div class="space-y-2">
-                                 <div class="h-2 w-full bg-gray-100 rounded"></div>
-                                 <div class="h-2 w-full bg-gray-100 rounded"></div>
-                                 <div class="h-2 w-2/3 bg-gray-100 rounded"></div>
-                             </div>
-                        </div>
-                    </div>
-                 </div>
+        <div class="bg-white border border-gray-200 rounded-xl p-8 text-center">
+            <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg class="w-8 h-8 text-primary-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
             </div>
-            <div>
-                <h3 class="text-xl font-semibold text-notion-black mb-2">Email without distractions. Get the Mac App.</h3>
-                <button class="bg-notion-black text-white text-sm font-medium px-4 py-2 rounded-[4px] hover:bg-notion-gray transition-colors flex items-center gap-2">
-                    Download for macOS
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-                </button>
+            <h3 class="text-xl font-semibold text-notion-black mb-2">Shape the Product</h3>
+            <p class="text-notion-gray">Your feedback will directly influence Bogi's development.</p>
+        </div>
+
+        <div class="bg-white border border-gray-200 rounded-xl p-8 text-center">
+            <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg class="w-8 h-8 text-primary-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>
             </div>
+            <h3 class="text-xl font-semibold text-notion-black mb-2">Priority Support</h3>
+            <p class="text-notion-gray">Get direct access to the team and priority assistance.</p>
         </div>
     </div>
 </section>

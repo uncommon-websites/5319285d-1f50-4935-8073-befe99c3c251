@@ -1,28 +1,40 @@
 <script>
-    // Hero Component
+    // Hero Component - Bogi Task Management
+    const tasks = [
+        { task: "Research gift ideas for Mom's birthday", status: "In Progress", category: "Personal", color: "purple" },
+        { task: "Draft email to investors", status: "Complete", category: "Work", color: "blue" },
+        { task: "Find restaurants for anniversary dinner", status: "In Progress", category: "Personal", color: "purple" },
+        { task: "Schedule dentist appointment", status: "Waiting", category: "Personal", color: "purple" },
+        { task: "Compare insurance quotes", status: "In Progress", category: "Finance", color: "green" },
+        { task: "Plan weekend trip itinerary", status: "In Progress", category: "Travel", color: "orange" },
+        { task: "Research best laptop for coding", status: "Complete", category: "Shopping", color: "blue" },
+        { task: "Find plumber for kitchen sink", status: "Waiting", category: "Home", color: "gray" },
+    ];
 </script>
 
 <section class="pt-20 pb-16 px-4 flex flex-col items-center text-center max-w-[1200px] mx-auto">
-    <!-- Paper Plane Icon -->
+    <!-- Parallel Tasks Icon -->
     <div class="mb-8 relative">
-        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="text-notion-black w-20 h-20 transform -rotate-12">
-            <path d="M22 2L11 13"></path>
-            <path d="M22 2L15 22L11 13L2 9L22 2Z"></path>
+        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-primary-600 w-20 h-20">
+            <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M11.6277 5.74767C10.7109 6.38712 9.22456 6.38712 8.3078 5.74767C7.39104 5.10821 7.39104 4.07144 8.3078 3.43199C9.22456 2.79253 10.7109 2.79253 11.6277 3.43199C12.5445 4.07144 12.5445 5.10821 11.6277 5.74767ZM12.3486 9.68436C13.4488 10.4517 15.2324 10.4517 16.3325 9.68436C17.4326 8.91698 17.4326 7.67288 16.3325 6.90553C15.2324 6.13818 13.4488 6.13818 12.3486 6.90553C11.2485 7.67288 11.2485 8.91698 12.3486 9.68436ZM4.73651 16.6314C5.46993 17.143 6.65903 17.143 7.39246 16.6314C8.12584 16.1198 8.12584 15.2904 7.39246 14.7788C6.65903 14.2672 5.46993 14.2672 4.73651 14.7788C4.0031 15.2904 4.0031 16.1198 4.73651 16.6314ZM11.6277 13.1579C10.7109 13.7973 9.22456 13.7973 8.3078 13.1579C7.39104 12.5184 7.39104 11.4816 8.3078 10.8421C9.22456 10.2027 10.7109 10.2027 11.6277 10.8421C12.5445 11.4816 12.5445 12.5184 11.6277 13.1579ZM2.41254 12.6947C2.9626 13.0784 3.85443 13.0784 4.40449 12.6947C4.95455 12.311 4.95455 11.689 4.40449 11.3053C3.85443 10.9216 2.9626 10.9216 2.41254 11.3053C1.86248 11.689 1.86249 12.311 2.41254 12.6947ZM4.73651 9.22117C5.46992 9.73275 6.65902 9.73275 7.39246 9.22117C8.12584 8.7096 8.12584 7.88018 7.39246 7.36863C6.65902 6.85706 5.46992 6.85706 4.73651 7.36863C4.0031 7.88018 4.0031 8.7096 4.73651 9.22117ZM11.6277 20.568C10.7109 21.2075 9.22456 21.2075 8.3078 20.568C7.39104 19.9286 7.39104 18.8918 8.3078 18.2523C9.22456 17.6129 10.7109 17.6129 11.6277 18.2523C12.5445 18.8918 12.5445 19.9286 11.6277 20.568ZM17.191 13.3894C18.2911 14.1568 20.0748 14.1568 21.1749 13.3894C22.275 12.6221 22.275 11.3779 21.1749 10.6106C20.0748 9.84324 18.2911 9.84324 17.191 10.6106C16.0909 11.3779 16.0909 12.6221 17.191 13.3894ZM16.3325 17.0945C15.2324 17.8618 13.4488 17.8618 12.3486 17.0945C11.2485 16.3271 11.2485 15.083 12.3486 14.3156C13.4488 13.5483 15.2324 13.5483 16.3325 14.3156C17.4326 15.083 17.4326 16.3271 16.3325 17.0945Z"
+                fill="currentColor"
+            />
         </svg>
-        <!-- Dashed line trail - simplified -->
-        <div class="absolute right-full top-1/2 w-32 h-[2px] border-t-2 border-dashed border-gray-200 -translate-y-1/2 opacity-50 hidden md:block" style="transform: rotate(-10deg) translateX(-20px);"></div>
     </div>
 
     <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-notion-black mb-6 max-w-4xl text-balance leading-[1.1]">
-        The inbox that <br class="hidden md:block" /> thinks like you
+        Transform mental clutter <br class="hidden md:block" /> into completed tasks
     </h1>
 
     <p class="text-xl text-notion-gray max-w-2xl mb-10 text-balance leading-relaxed">
-        Meet Notion Mail, the inbox that organizes itself, drafts emails, and schedules meetings any way you'd like.
+        Bogi is your AI assistant that executes multiple tasks in parallel. Just delegate and forget—get notified only when it matters.
     </p>
 
-    <button class="bg-notion-black text-white text-lg font-medium px-6 py-3 rounded-[6px] hover:bg-notion-gray transition-colors mb-20">
-        Get Notion Mail free
+    <button class="bg-notion-black text-white text-lg font-medium px-6 py-3 rounded-[6px] hover:bg-gray-800 transition-colors mb-20">
+        Join Early Access
     </button>
 
     <!-- UI Mockup -->
@@ -43,49 +55,41 @@
             </div>
 
             <div>
-                <div class="text-xs font-medium text-gray-500 px-2 mb-1">Views</div>
+                <div class="text-xs font-medium text-gray-500 px-2 mb-1">Categories</div>
                 <div class="space-y-0.5">
                     <div class="flex items-center gap-2 px-2 py-1 bg-white rounded shadow-sm text-notion-black font-medium">
-                        <svg class="w-4 h-4 text-red-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
-                        Inbox
+                        <svg class="w-4 h-4 text-primary-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>
+                        All Tasks
                     </div>
                     <div class="flex items-center gap-2 px-2 py-1 text-gray-600 hover:bg-gray-200 rounded cursor-pointer">
-                        <svg class="w-4 h-4 text-orange-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
-                        Calendar
+                        <svg class="w-4 h-4 text-purple-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
+                        In Progress
                     </div>
                      <div class="flex items-center gap-2 px-2 py-1 text-gray-600 hover:bg-gray-200 rounded cursor-pointer">
-                        <span class="w-4 h-4 flex items-center justify-center text-purple-500">💼</span>
-                        Hiring
+                        <svg class="w-4 h-4 text-green-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                        Complete
                     </div>
                      <div class="flex items-center gap-2 px-2 py-1 text-gray-600 hover:bg-gray-200 rounded cursor-pointer">
-                        <span class="w-4 h-4 flex items-center justify-center text-pink-500">❤️</span>
-                        Support
-                    </div>
-                     <div class="flex items-center gap-2 px-2 py-1 text-gray-600 hover:bg-gray-200 rounded cursor-pointer">
-                        <span class="w-4 h-4 flex items-center justify-center text-blue-500">✈️</span>
-                        Travel
-                    </div>
-                     <div class="flex items-center gap-2 px-2 py-1 text-gray-600 hover:bg-gray-200 rounded cursor-pointer">
-                        <span class="w-4 h-4 flex items-center justify-center text-green-500">📰</span>
-                        Newsletters
+                        <svg class="w-4 h-4 text-orange-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+                        Waiting
                     </div>
                 </div>
             </div>
 
              <div>
-                <div class="text-xs font-medium text-gray-500 px-2 mb-1">Mail</div>
+                <div class="text-xs font-medium text-gray-500 px-2 mb-1">Contexts</div>
                 <div class="space-y-0.5">
                     <div class="flex items-center gap-2 px-2 py-1 text-gray-600 hover:bg-gray-200 rounded cursor-pointer">
-                        <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
-                        All mail
+                        <span class="w-4 h-4 flex items-center justify-center text-purple-500">💜</span>
+                        Personal
                     </div>
                     <div class="flex items-center gap-2 px-2 py-1 text-gray-600 hover:bg-gray-200 rounded cursor-pointer">
-                        <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
-                        Sent
+                        <span class="w-4 h-4 flex items-center justify-center text-blue-500">💼</span>
+                        Work
                     </div>
                     <div class="flex items-center gap-2 px-2 py-1 text-gray-600 hover:bg-gray-200 rounded cursor-pointer">
-                         <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
-                        Drafts
+                        <span class="w-4 h-4 flex items-center justify-center text-orange-500">✈️</span>
+                        Travel
                     </div>
                 </div>
             </div>
@@ -95,13 +99,13 @@
         <div class="flex-1 flex flex-col min-w-0 bg-white">
             <div class="h-12 border-b border-gray-100 flex items-center px-6 justify-between">
                 <div class="flex items-center gap-2 font-medium text-notion-black">
-                    <svg class="w-4 h-4 text-red-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
-                    Inbox
+                    <svg class="w-4 h-4 text-primary-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>
+                    All Tasks
                 </div>
                 <div class="flex items-center gap-3 text-gray-400">
-                    <div class="flex items-center gap-1 text-xs font-medium border border-gray-200 rounded px-2 py-1 text-gray-600">
-                        <svg class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-                        Auto Label
+                    <div class="flex items-center gap-1 text-xs font-medium text-gray-500">
+                        <svg class="w-3 h-3 text-primary-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>
+                        5 running in parallel
                     </div>
                 </div>
             </div>
@@ -116,32 +120,28 @@
                         </tr>
                     </thead>
                     <tbody class="text-sm">
-                        {#each [
-                            { sender: "Andrew, Jason", subject: "Next steps", tag: "Hiring", color: "blue" },
-                            { sender: "Jack Steadman", subject: "Can't find log out button", tag: "", color: "" },
-                            { sender: "Bud, Stephanie", subject: "Product design role", tag: "Hiring", color: "blue" },
-                            { sender: "Natalie", subject: "Dark mode looks off", tag: "", color: "" },
-                            { sender: "Kosta B", subject: "Technical interview", tag: "Hiring", color: "blue" },
-                            { sender: "Sunny, Vaishnavi", subject: "Re: Coffee", tag: "Hiring", color: "blue" },
-                            { sender: "Enabled MD", subject: "Exciting new role", tag: "Hiring", color: "blue" },
-                            { sender: "Vicky Soara", subject: "Accelerating your IT", tag: "", color: "" },
-                            { sender: "CMYK Apparel", subject: "Free lunch?", tag: "", color: "" },
-                            { sender: "Michal Loutsa", subject: "Pending: Your input on project scope", tag: "Cold email", color: "orange" },
-                            { sender: "Finance Dept, Penny B", subject: "Expense report status", tag: "Cold email", color: "orange" },
-                            { sender: "Nan E. Lohra", subject: "Waiting for signed agreement", tag: "", color: "" },
-                        ] as email}
+                        {#each tasks as task}
                             <tr class="group hover:bg-gray-50 border-b border-gray-50 last:border-0 transition-colors">
-                                <td class="py-3 pl-6 pr-4 text-notion-black font-medium truncate">{email.sender}</td>
-                                <td class="py-3 px-4 text-gray-600 truncate">{email.subject}</td>
+                                <td class="py-3 pl-6 pr-4 text-notion-black truncate">{task.task}</td>
+                                <td class="py-3 px-4 text-gray-600 truncate">
+                                    <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium
+                                        {task.status === 'In Progress' ? 'bg-purple-100 text-purple-700' : ''}
+                                        {task.status === 'Complete' ? 'bg-green-100 text-green-700' : ''}
+                                        {task.status === 'Waiting' ? 'bg-orange-100 text-orange-700' : ''}
+                                    ">
+                                        {task.status}
+                                    </span>
+                                </td>
                                 <td class="py-3 px-4 text-right">
-                                    {#if email.tag}
-                                        <span class="inline-flex items-center px-1.5 py-0.5 rounded text-xs font-medium
-                                            {email.color === 'blue' ? 'bg-blue-100 text-blue-700' : ''}
-                                            {email.color === 'orange' ? 'bg-orange-100 text-orange-700' : ''}
-                                        ">
-                                            {email.tag}
-                                        </span>
-                                    {/if}
+                                    <span class="inline-flex items-center px-1.5 py-0.5 rounded text-xs font-medium
+                                        {task.color === 'purple' ? 'bg-purple-50 text-purple-600' : ''}
+                                        {task.color === 'blue' ? 'bg-blue-50 text-blue-600' : ''}
+                                        {task.color === 'green' ? 'bg-green-50 text-green-600' : ''}
+                                        {task.color === 'orange' ? 'bg-orange-50 text-orange-600' : ''}
+                                        {task.color === 'gray' ? 'bg-gray-50 text-gray-600' : ''}
+                                    ">
+                                        {task.category}
+                                    </span>
                                 </td>
                             </tr>
                         {/each}
@@ -150,16 +150,12 @@
             </div>
             
             <!-- Floating Action Button -->
-            <div class="absolute bottom-8 right-8 bg-gray-100 hover:bg-gray-200 text-notion-black px-4 py-2 rounded-full shadow-lg border border-gray-200 flex items-center gap-2 cursor-pointer transition-all z-10">
-                Filter out cold emails
-                 <div class="w-8 h-8 bg-white rounded-full flex items-center justify-center border border-gray-200 ml-1">
-                    <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg>
+            <div class="absolute bottom-8 right-8 bg-primary-600 hover:bg-primary-700 text-white px-4 py-2 rounded-full shadow-lg flex items-center gap-2 cursor-pointer transition-all z-10">
+                Add new task
+                 <div class="w-8 h-8 bg-white rounded-full flex items-center justify-center ml-1">
+                    <svg class="w-4 h-4 text-primary-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
                 </div>
             </div>
-             <!-- Wand icon floating separately in screenshot? No, it looks like a button with an icon circle attached or overlapping -->
-             <!-- Actually looking at the screenshot, there is a "Filter out cold emails" button and then a separate circular button with a wand/sparkle icon below it or overlapping. -->
-             <!-- Let's adjust: The screenshot shows "Filter out cold emails" in a pill, and a sparkle icon button below/next to it. -->
-             <!-- Wait, looking closer at the crop 1: It's a pill "Filter out cold emails" and a separate circle button with a wand/sparkle. -->
         </div>
     </div>
 </section>

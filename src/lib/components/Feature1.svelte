@@ -1,25 +1,26 @@
-<section class="max-w-[1000px] mx-auto px-4 py-20">
+<section class="max-w-[1000px] mx-auto px-4 py-20" id="features">
     <div class="flex flex-col md:flex-row justify-between items-start mb-12">
         <h2 class="text-4xl md:text-5xl font-bold tracking-tight text-notion-black max-w-lg text-balance leading-[1.1]">
-            Every email organized, automatically.
+            Multiple tasks, executed in parallel.
         </h2>
-        <!-- Stamps Illustration -->
+        <!-- Parallel Tasks Illustration -->
         <div class="mt-8 md:mt-0 relative">
-             <!-- Bell Stamp -->
-            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#F59E0B" stroke-width="1.5" class="absolute -left-12 top-0 transform -rotate-12">
-                <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
-                <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+             <!-- Task 1 -->
+            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="oklch(0.623 0.214 259.815)" stroke-width="1.5" class="absolute -left-12 top-0 transform -rotate-12">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M12 6v6l4 2"></path>
                 <rect x="1" y="1" width="22" height="22" rx="2" stroke-dasharray="2 2"></rect>
             </svg>
-            <!-- Envelope Stamp -->
-             <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#EF4444" stroke-width="1.5" class="absolute left-4 top-4 transform rotate-6 z-10 bg-white">
-                <rect x="2" y="4" width="20" height="16" rx="2"></rect>
-                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+            <!-- Task 2 -->
+             <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="oklch(0.623 0.214 259.815)" stroke-width="1.5" class="absolute left-4 top-4 transform rotate-6 z-10 bg-white">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M12 6v6l4 2"></path>
                  <rect x="1" y="1" width="22" height="22" rx="2" stroke-dasharray="2 2"></rect>
             </svg>
-             <!-- Blue Stamp -->
-             <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#3B82F6" stroke-width="1.5" class="absolute left-20 -top-2 transform -rotate-6">
-                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+             <!-- Task 3 -->
+             <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="oklch(0.623 0.214 259.815)" stroke-width="1.5" class="absolute left-20 -top-2 transform -rotate-6">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M12 6v6l4 2"></path>
                  <rect x="1" y="1" width="22" height="22" rx="2" stroke-dasharray="2 2"></rect>
             </svg>
         </div>
@@ -53,22 +54,22 @@
             <div class="px-3 py-2 text-xs font-medium text-gray-500">Suggested</div>
             <div class="space-y-1">
                 <div class="flex items-start gap-3 p-2 hover:bg-gray-50 rounded cursor-pointer">
-                    <svg class="w-4 h-4 text-gray-400 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>
-                    <span class="text-sm text-notion-black">Documents that require my signature</span>
+                    <svg class="w-4 h-4 text-primary-600 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
+                    <span class="text-sm text-notion-black">Research gift ideas for anniversary</span>
                 </div>
                 <div class="flex items-start gap-3 p-2 hover:bg-gray-50 rounded cursor-pointer">
-                    <svg class="w-4 h-4 text-gray-400 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-                    <span class="text-sm text-notion-black">Product feedback from customers</span>
+                    <svg class="w-4 h-4 text-primary-600 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
+                    <span class="text-sm text-notion-black">Draft email to potential investors</span>
                 </div>
                 <div class="flex items-start gap-3 p-2 hover:bg-gray-50 rounded cursor-pointer">
-                    <svg class="w-4 h-4 text-gray-400 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
-                    <span class="text-sm text-notion-black">Travel bookings and confirmations</span>
+                    <svg class="w-4 h-4 text-primary-600 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
+                    <span class="text-sm text-notion-black">Find and compare insurance quotes</span>
                 </div>
             </div>
         </div>
     </div>
 
     <p class="mt-8 text-lg text-notion-black max-w-2xl">
-        Tell Notion AI what types of emails are important to read, and it'll automatically label and sort them as they arrive.
+        Delegate multiple tasks at once. Bogi executes them simultaneously, learning your preferences and context along the way.
     </p>
 </section>

@@ -2,24 +2,24 @@
     // Testimonials Component
     const testimonials = [
         {
-            name: "Camille Ricketts",
-            handle: "@camillericketts",
-            text: "Notion Mail let me create a system so customized to the way I work, my relationships, and my tone of voice that there's no way I could go back."
+            name: "Sarah Chen",
+            handle: "@sarahchen",
+            text: "Bogi transformed how I manage my life. I delegate tasks in the morning and by evening, everything's done. It's like having a personal assistant who never sleeps."
         },
         {
-            name: "Aleks",
-            handle: "@aleksliving",
-            text: "OK: Notion Mail is pretty sick."
+            name: "Marcus Rodriguez",
+            handle: "@marcusr",
+            text: "The parallel execution is a game-changer. I can finally get through my mental to-do list without feeling overwhelmed."
         },
         {
-            name: "Mike Majara",
-            handle: "@mikemajara",
-            text: "@NotionMail deserves every bit of hype it's getting. The switch from Gmail is just natural for power users."
+            name: "Emily Watson",
+            handle: "@emilywatson",
+            text: "I used to drop so many balls juggling work and personal tasks. Bogi catches them all. The smart notifications mean I'm never bothered unless it matters."
         },
         {
-            name: "Rohit Ghumare",
-            handle: "@ghumare64",
-            text: "With @NotionMail's AI, unwanted spam, updates, promotions... I can focus on essential emails."
+            name: "David Park",
+            handle: "@davidpark",
+            text: "Finally, an AI tool that actually reduces my cognitive load instead of adding to it. Bogi just gets it done."
         }
     ];
 </script>
