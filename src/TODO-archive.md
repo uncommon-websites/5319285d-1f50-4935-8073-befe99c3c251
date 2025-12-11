@@ -1,5 +1,10 @@
+# Todo Archive
+
+
+## Session: 2025-12-11T18:15:57.365Z
+
 <!-- DO NOT EDIT - Managed by todo_list tool -->
-<!-- Updated: 2025-12-11T18:16:35.542Z -->
+<!-- Updated: 2025-12-11T15:58:47.745Z -->
 
 # Current Todo List State
 
@@ -16,7 +21,5 @@
 - [ ] Update Security component to minimal design
 - [ ] Update FAQ component to minimal design
 - [ ] Final design system compliance check
-- [x] View FAQ.svelte to see the Notion Mail references
-- [x] Update FAQ questions to be Bogi-specific instead of Notion Mail
-- [x] Check all other components for any non-Bogi company references
-- [x] Run error check to ensure all changes compile correctly
+
+──────────────────────────────────────────────────

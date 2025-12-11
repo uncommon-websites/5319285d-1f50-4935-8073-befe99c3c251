@@ -1,10 +1,10 @@
 <script>
     const faqs = [
-        "Which email provider(s) are Notion Mail compatible with?",
-        "When will Notion Mail be available on mobile devices?",
-        "What languages are Notion Mail available in?",
-        "Can I manage multiple emails accounts on Notion Mail?",
-        "What are Notion Mail's security standards?"
+        "How does Bogi handle multiple tasks simultaneously?",
+        "When will Bogi be available on mobile devices?",
+        "What types of tasks can Bogi complete?",
+        "Can I integrate Bogi with my existing tools and apps?",
+        "What are Bogi's security and privacy standards?"
     ];
 </script>
 
