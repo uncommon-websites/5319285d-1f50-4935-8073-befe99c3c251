@@ -1,15 +1,16 @@
 @import "tailwindcss";
 
 @theme {
-	/* Colors */
-	--color-notion-black: #000000;
-	--color-notion-dark: #111111;
-	--color-notion-gray: #37352f;
-	--color-notion-light-gray: #F7F7F5;
-	--color-notion-border: #E0E0E0;
-	--color-notion-blue: #2383E2;
+	/* Brutalist Color Palette */
+	--color-black: #000000;
+	--color-white: #FFFFFF;
+	--color-gray: #666666;
+	--color-light-gray: #F5F5F5;
+	--color-border: #E5E5E5;
 	
-	--font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+	/* Typography */
+	--font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+	--font-mono: "SF Mono", Monaco, "Cascadia Code", "Roboto Mono", Consolas, "Courier New", monospace;
 }
 
 @layer utilities {
@@ -20,6 +21,20 @@
 
 body {
 	font-family: var(--font-sans);
-	color: var(--color-notion-gray);
+	color: var(--color-black);
+	background: var(--color-white);
 	-webkit-font-smoothing: antialiased;
+	line-height: 1.5;
+}
+
+/* Brutalist Typography */
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 600;
+	letter-spacing: -0.02em;
+	line-height: 1.1;
+}
+
+/* Remove all shadows globally */
+* {
+	box-shadow: none !important;
 }
